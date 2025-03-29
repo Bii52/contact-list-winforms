@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace ContactList1
 {
-    public partial class MainForm : Form
+    public partial class AddContactForm : Form
     {
-        public MainForm()
+        public AddContactForm()
         {
             InitializeComponent();
-        }
-
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-            AddContactForm addContactForm = new AddContactForm();
-            addContactForm.ShowDialog();
         }
     }
 }
